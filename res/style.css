@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP&display=swap");
+
+body {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sidebar {
+	background-color: blueviolet;
+	color: whitesmoke;
+}
+
+.pure-menu-link {
+	color: whitesmoke;
+}
+
+.pure-menu-link:hover {
+	color: black;
+}
+
+.content {
+	padding: 2em 3em 0;
+}
+
+.content a {
+	color: #854bd1;
+}
+.content a:visited {
+	color: #c395ff;
+}
+
+.section {
+	padding-bottom: 2em;
+	border-top: 1px dotted gray;
+}
+
+.header {
+	text-align: center;
+	top: auto;
+	margin: 3em auto;
+}
+
+.header-title {
+	color: white;
+	font-size: 60px;
+	font-family: "Fredoka One", cursive;
+}
+
+@media (min-width: 48em) {
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+	}
+
+	.header {
+		margin: 3em 3em auto;
+		text-align: right;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.header-title {
+		font-size: 90px;
+	}
+
+	.content {
+		margin-left: 50%;
+	}
+}
+.icon-image {
+	border-radius: 22%;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
